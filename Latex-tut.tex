@@ -1,9 +1,17 @@
 \documentclass{article} %standard document class available with Latex
+\usepackage{fancyhdr} %Package for including headers and footers
 
 %Details for the title page
 \title{My First Report}
 \author{Primal}
 \date{February 20 2012}
+
+\pagestyle{fancy} %To remove header on title document
+\lhead{\footnotesize Left Header} %left header
+\lfoot{\footnotesize Left Footer } %left footer
+\cfoot{\footnotesize Central Footer} %Central footer
+\rhead{\footnotesize Right Header} %Right Header
+\rfoot{\footnotesize Right Footer} %Right Footer
 
 \begin{document}
 \maketitle %Generates the title page. Should be after \begin{document}
